@@ -1,0 +1,30 @@
+{
+  "name": "@oliverkoehler/graphql-jwt-mongodb",
+  "version": "1.0.0",
+  "description": "Boilerplace",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "cls && node src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.15.0",
+    "apollo-server-express": "^3.11.1",
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mkdirp": "^1.0.4",
+    "moment": "^2.29.4",
+    "mongoose": "^5.9.20",
+    "mongoose-delete": "^0.5.2",
+    "mongoose-findoneorcreate": "^1.0.3",
+    "mongoose-findorcreate": "^3.0.0",
+    "randomstring": "^1.1.5",
+    "simple-node-logger": "^18.12.24",
+    "validator": "^13.1.1"
+  }
+}
